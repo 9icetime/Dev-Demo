@@ -3,7 +3,7 @@ param adminUsername string
 
 @description('Password for the Virtual Machine.')
 @minLength(12)
-@secure()
+@secure()   
 param adminPassword string
 
 @description('Unique DNS Name for the Public IP used to access the Virtual Machine.')
